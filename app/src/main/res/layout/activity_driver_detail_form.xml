@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".DriverDetailFormActivity">
+
+    <EditText
+        android:id="@+id/carColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Bike Color"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/confirmBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/carModel" />
+
+    <TextView
+        android:id="@+id/acsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/acs_heading_background"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="ACS"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/driverName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Driver Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acsTextView" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Driver Age"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/mobileNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/driverName" />
+
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/registrationNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    <EditText
+        android:id="@+id/registrationNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Registration Number"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/vehicleNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobileNumber" />
+
+    <EditText
+        android:id="@+id/vehicleNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Vehicle Number"
+        android:inputType="textPersonName"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/carModel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrationNumber" />
+
+    <EditText
+        android:id="@+id/carModel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Bike Model"
+        android:inputType="textPersonName"
+        android:textColor="@color/imageBgColor"
+        android:textColorHighlight="@color/imageBgColor"
+        android:textColorHint="@color/imageBgColor"
+        app:layout_constraintBottom_toTopOf="@id/carColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleNumber" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button"
+        android:text="Confirm"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carModel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

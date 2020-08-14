@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29414504711",
+    "firebase_url": "https://acsfirebaseproject-b0b02.firebaseio.com",
+    "project_id": "acsfirebaseproject-b0b02",
+    "storage_bucket": "acsfirebaseproject-b0b02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29414504711:android:b020950eefbd4ab95d6da2",
+        "android_client_info": {
+          "package_name": "com.theintimidators.acs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29414504711-0o3tppp9ikqrbcc03o8vck778mu9h91u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theintimidators.acs",
+            "certificate_hash": "fc7270711b7b6553df2cfff8dd541b86fe36ebad"
+          }
+        },
+        {
+          "client_id": "29414504711-1l8ji13dbku3t4um8dkknsjkc1o6r5an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-4QPfjuTu5uKFkScgYvNlON9vffvRl8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29414504711-1l8ji13dbku3t4um8dkknsjkc1o6r5an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

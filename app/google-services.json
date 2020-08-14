@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "228742814213",
+    "firebase_url": "https://acsintimidators.firebaseio.com",
+    "project_id": "acsintimidators",
+    "storage_bucket": "acsintimidators.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228742814213:android:8cf4975279d47f8bc81a6c",
+        "android_client_info": {
+          "package_name": "com.theintimidators.acs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228742814213-hpmmj4h488u6h7i80heho3ij47qhouv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqB2lAQRk7hzIuNaimju1jE84s9hjdNkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228742814213-hpmmj4h488u6h7i80heho3ij47qhouv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
